@@ -16,4 +16,9 @@ export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)
 alias java7='export JAVA_HOME=$JAVA_7_HOME'
 alias java8='export JAVA_HOME=$JAVA_8_HOME'
 
+alias ch='chrome-cli'
+alias chtabs='chrome-cli list tabs'
+alias chtab='chrome-cli activate -t'
+alias chgrep='chrome-cli list tabs | grep'
+
 export JAVA_HOME=$JAVA_7_HOME

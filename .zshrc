@@ -3,7 +3,7 @@
 ########################
 ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="ys"
-plugins=(git mvn)
+plugins=(git mvn web-search)
 source $ZSH/oh-my-zsh.sh
 
 # Source boxen

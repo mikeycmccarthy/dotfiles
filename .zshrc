@@ -22,3 +22,12 @@ alias chtab='chrome-cli activate -t'
 alias chgrep='chrome-cli list tabs | grep'
 
 export JAVA_HOME=$JAVA_7_HOME
+
+# Boxen
+hash -d brepo=/opt/boxen/repo
+hash -d bmanifest=/opt/boxen/repo/modules/people/manifests/mikeycmccarthy
+alias -s pp=vim
+
+# Named directories
+hash -d dotfiles=$HOME/src/dotfiles
+hash -d dev=$HOME/Development

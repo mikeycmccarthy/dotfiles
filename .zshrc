@@ -22,6 +22,7 @@ alias chtab='chrome-cli activate -t'
 alias chgrep='chrome-cli list tabs | grep'
 
 export JAVA_HOME=$JAVA_7_HOME
+export M2_HOME=/opt/boxen/homebrew/Cellar/maven/3.2.1/libexec
 
 # Boxen
 hash -d brepo=/opt/boxen/repo
@@ -31,3 +32,4 @@ alias -s pp=vim
 # Named directories
 hash -d dotfiles=$HOME/src/dotfiles
 hash -d dev=$HOME/Development
+alias -g WS='--settings ~/work-dotfiles/settings.xml'

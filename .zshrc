@@ -46,7 +46,7 @@ alias -g WS='--settings ~/work-dotfiles/settings.xml'
 hash -d core=~dev/Gamesys/Platforms/Core
 
 # Docker
-export DOCKER_HOST=tcp://localhost:4243
+export DOCKER_HOST=tcp://:2375
 
 # Load other zsh files, look at moving more things here to break up the length of this file
 export MYZSH=$HOME/src/dotfiles/zsh

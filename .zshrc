@@ -24,6 +24,7 @@ alias java7='export JAVA_HOME=$JAVA_7_HOME'
 alias java8='export JAVA_HOME=$JAVA_8_HOME'
 export JAVA_HOME=$JAVA_7_HOME
 export M2_HOME=/opt/boxen/homebrew/Cellar/maven/3.2.1/libexec
+export GROOVY_HOME=/opt/boxen/homebrew/Cellar/groovy/2.3.2/libexec
 
 # CLI chrome control aliases (consider moving to a zsh plugin)
 alias ch='chrome-cli'
@@ -46,6 +47,9 @@ hash -d core=~dev/Gamesys/Platforms/Core
 
 # Personal
 alias findflacdirs='find . -type f -name '*.flac' |sed 's#\(.*\)/.*#\1#' |sort -u'
+
+# Docker
+export DOCKER_HOST=tcp://:2375
 
 # Load other zsh files, look at moving more things here to break up the length of this file
 export MYZSH=$HOME/src/dotfiles/zsh

@@ -44,6 +44,9 @@ hash -d dev=$HOME/Development
 alias -g WS='--settings ~/work-dotfiles/settings.xml'
 hash -d core=~dev/Gamesys/Platforms/Core
 
+# Personal
+alias findflacdirs='find . -type f -name '*.flac' |sed 's#\(.*\)/.*#\1#' |sort -u'
+
 # Load other zsh files, look at moving more things here to break up the length of this file
 export MYZSH=$HOME/src/dotfiles/zsh
 # for config_file ($MYZSH/functions/* ) source $config_file

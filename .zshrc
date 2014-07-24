@@ -3,7 +3,7 @@
 ########################
 ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="ys"
-plugins=(git mvn systemadmin web-search docker)
+plugins=(git mvn systemadmin web-search docker vagrant)
 source $ZSH/oh-my-zsh.sh
 
 # Source boxen

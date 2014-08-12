@@ -3,7 +3,7 @@
 ########################
 ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="ys"
-plugins=(git mvn systemadmin web-search docker vagrant)
+plugins=(git mvn systemadmin web-search)
 source $ZSH/oh-my-zsh.sh
 
 # Source boxen
@@ -24,13 +24,14 @@ alias java7='export JAVA_HOME=$JAVA_7_HOME'
 alias java8='export JAVA_HOME=$JAVA_8_HOME'
 export JAVA_HOME=$JAVA_7_HOME
 export M2_HOME=/opt/boxen/homebrew/Cellar/maven/3.2.1/libexec
-export GROOVY_HOME=/opt/boxen/homebrew/Cellar/groovy/2.3.2/libexec
+export GROOVY_HOME=/opt/boxen/homebrew/opt/groovy/libexec
 
 # CLI chrome control aliases (consider moving to a zsh plugin)
 alias ch='chrome-cli'
 alias chtabs='chrome-cli list tabs'
 alias chtab='chrome-cli activate -t'
-alias chgrep='chrome-cli list tabs | grep'
+alias chgrep='chrome-cli list tabs | egrep'
+alias trello='chgrep trello | awk "{print $1}" | xargs chtab'
 
 # Boxen
 hash -d brepo=/opt/boxen/repo
@@ -44,6 +45,7 @@ hash -d dev=$HOME/Development
 # Work
 alias -g WS='--settings ~/work-dotfiles/settings.xml'
 hash -d core=~dev/Gamesys/Platforms/Core
+alias acurl='curl -v -u coreplatform@gamesys.co.uk:Password1'
 
 # Docker
 export DOCKER_HOST=tcp://:2375

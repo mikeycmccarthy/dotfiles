@@ -47,9 +47,6 @@ alias -g WS='--settings ~/work-dotfiles/settings.xml'
 hash -d core=~dev/Gamesys/Platforms/Core
 alias acurl='curl -v -u coreplatform@gamesys.co.uk:Password1'
 
-# Personal
-alias findflacdirs='find . -type f -name '*.flac' |sed 's#\(.*\)/.*#\1#' |sort -u'
-
 # Docker
 export DOCKER_HOST=tcp://:2375
 

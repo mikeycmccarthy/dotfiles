@@ -48,7 +48,7 @@ hash -d core=~dev/Gamesys/Platforms/Core
 alias acurl='curl -v -u coreplatform@gamesys.co.uk:Password1'
 
 # Docker
-export DOCKER_HOST=tcp://:2375
+# export DOCKER_HOST=tcp://:2375
 
 # Load other zsh files, look at moving more things here to break up the length of this file
 export MYZSH=$HOME/src/dotfiles/zsh

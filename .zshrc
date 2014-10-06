@@ -25,6 +25,7 @@ alias java8='export JAVA_HOME=$JAVA_8_HOME'
 export JAVA_HOME=$JAVA_7_HOME
 export M2_HOME=/opt/boxen/homebrew/Cellar/maven/3.2.1/libexec
 export GROOVY_HOME=/opt/boxen/homebrew/opt/groovy/libexec
+export MAVEN_OPTS="-XX:MaxPermSize=1024m"
 
 # CLI chrome control aliases (consider moving to a zsh plugin)
 alias ch='chrome-cli'

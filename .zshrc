@@ -22,7 +22,8 @@ export JAVA_7_HOME=$(/usr/libexec/java_home -v1.7)
 export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)
 alias java7='export JAVA_HOME=$JAVA_7_HOME'
 alias java8='export JAVA_HOME=$JAVA_8_HOME'
-export JAVA_HOME=$JAVA_7_HOME
+# export JAVA_HOME=$JAVA_7_HOME
+export JAVA_HOME=$JAVA_8_HOME
 export M2_HOME=/opt/boxen/homebrew/Cellar/maven/3.2.1/libexec
 export GROOVY_HOME=/opt/boxen/homebrew/opt/groovy/libexec
 export MAVEN_OPTS="-XX:MaxPermSize=1024m"
@@ -50,6 +51,14 @@ alias acurl='curl -v -u coreplatform@gamesys.co.uk:Password1'
 
 # Docker
 # export DOCKER_HOST=tcp://:2375
+export DOCKER_HOST=tcp://192.168.59.103:2375
+alias drm-weeks='docker ps -a | grep 'weeks ago' | awk '{print $1}' | xargs docker rm'
+alias drm-days='docker ps -a | grep 'days ago' | awk '{print $1}' | xargs docker rm'
+alias drmi='docker rmi $(docker images -q)'
+
+# Glassfish
+export GLASSFISH_HOME=/opt/boxen/homebrew/opt/glassfish/libexec
+export PATH=${PATH}:${GLASSFISH_HOME}/bin
 
 # Load other zsh files, look at moving more things here to break up the length of this file
 export MYZSH=$HOME/src/dotfiles/zsh

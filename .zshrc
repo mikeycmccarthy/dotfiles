@@ -3,7 +3,7 @@
 ########################
 ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="ys"
-plugins=(git mvn systemadmin web-search)
+plugins=(git mvn wd)
 source $ZSH/oh-my-zsh.sh
 
 # Source boxen
@@ -24,7 +24,7 @@ alias java7='export JAVA_HOME=$JAVA_7_HOME'
 alias java8='export JAVA_HOME=$JAVA_8_HOME'
 # export JAVA_HOME=$JAVA_7_HOME
 export JAVA_HOME=$JAVA_8_HOME
-export M2_HOME=/opt/boxen/homebrew/Cellar/maven/3.2.1/libexec
+export M2_HOME=/opt/boxen/homebrew/Cellar/maven/3.2.5/libexec
 export GROOVY_HOME=/opt/boxen/homebrew/opt/groovy/libexec
 export MAVEN_OPTS="-XX:MaxPermSize=1024m"
 
@@ -50,8 +50,10 @@ hash -d core=~dev/Gamesys/Platforms/Core
 alias acurl='curl -v -u coreplatform@gamesys.co.uk:Password1'
 
 # Docker
-# export DOCKER_HOST=tcp://:2375
-export DOCKER_HOST=tcp://192.168.59.103:2375
+export DOCKER_HOST=tcp://192.168.59.104:2376
+# export DOCKER_HOST=tcp://192.168.59.103:2375
+export DOCKER_CERT_PATH=/Users/michael.mccarthy/.boot2docker/certs/boot2docker-vm
+export DOCKER_TLS_VERIFY=1
 alias drm-weeks='docker ps -a | grep 'weeks ago' | awk '{print $1}' | xargs docker rm'
 alias drm-days='docker ps -a | grep 'days ago' | awk '{print $1}' | xargs docker rm'
 alias drmi='docker rmi $(docker images -q)'

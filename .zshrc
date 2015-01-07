@@ -50,7 +50,7 @@ hash -d core=~dev/Gamesys/Platforms/Core
 alias acurl='curl -v -u coreplatform@gamesys.co.uk:Password1'
 
 # Docker
-export DOCKER_HOST=tcp://192.168.59.104:2375
+export DOCKER_HOST=tcp://192.168.33.10:2375
 alias drm-weeks='docker ps -a | grep 'weeks ago' | awk '{print $1}' | xargs docker rm'
 alias drm-days='docker ps -a | grep 'days ago' | awk '{print $1}' | xargs docker rm'
 alias drmi='docker rmi $(docker images -q)'

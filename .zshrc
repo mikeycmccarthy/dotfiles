@@ -3,7 +3,7 @@
 ########################
 ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="ys"
-plugins=(git mvn wd)
+plugins=(git mvn wd common-aliases)
 source $ZSH/oh-my-zsh.sh
 
 # Source boxen
@@ -13,9 +13,6 @@ export EDITOR=vim
 
 # Global aliases
 alias -g EG='|& egrep'
-alias -g G='| egrep'
-alias -g H='| head'
-alias -g M='| more'
 
 # Java
 export JAVA_7_HOME=$(/usr/libexec/java_home -v1.7)

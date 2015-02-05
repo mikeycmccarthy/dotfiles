@@ -51,6 +51,9 @@ export DOCKER_HOST=tcp://192.168.33.10:2375
 alias drm-weeks='docker ps -a | grep 'weeks ago' | awk '{print $1}' | xargs docker rm'
 alias drm-days='docker ps -a | grep 'days ago' | awk '{print $1}' | xargs docker rm'
 alias drmi='docker rmi $(docker images -q)'
+function dent {
+docker exec -i -t $1 /bin/bash
+}
 
 # Glassfish
 export GLASSFISH_HOME=/opt/boxen/homebrew/opt/glassfish/libexec

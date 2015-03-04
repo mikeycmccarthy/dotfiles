@@ -3,7 +3,7 @@
 ########################
 ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="ys"
-plugins=(git mvn wd common-aliases)
+plugins=(git mvn wd common-aliases osx git-extras)
 source $ZSH/oh-my-zsh.sh
 
 # Source boxen
@@ -47,7 +47,7 @@ hash -d core=~dev/Gamesys/Platforms/Core
 alias acurl='curl -v -u coreplatform@gamesys.co.uk:Password1'
 
 # Docker
-export DOCKER_HOST=tcp://192.168.33.10:2375
+export DOCKER_HOST=tcp://176.16.1.80:2375
 alias drm-weeks='docker ps -a | grep 'weeks ago' | awk '{print $1}' | xargs docker rm'
 alias drm-days='docker ps -a | grep 'days ago' | awk '{print $1}' | xargs docker rm'
 alias drmi='docker rmi $(docker images -q)'

@@ -5,6 +5,6 @@ member:/Users/michael.mccarthy/Development/Gamesys/Platforms/Core/Workstreams/Me
 payments:/Users/michael.mccarthy/Development/Gamesys/Platforms/Core/Workstreams/Payments
 incentive:/Users/michael.mccarthy/Development/Gamesys/Platforms/Core/Workstreams/Incentive
 coreplatform:/Users/michael.mccarthy/Development/Gamesys/Platforms/Core/Workstreams/Platform/coreplatform
-vb:/Users/michael.mccarthy/vagrant_boxes
 gaming:/Users/michael.mccarthy/Development/Gamesys/Platforms/Core/Workstreams/Gaming
 gsys-tmp:/Users/michael.mccarthy/Development/Gamesys/Temporary
+vb:/Users/michael.mccarthy/Development/Gamesys/Platforms/Core/Workstreams/Platform/coreplatform-vm

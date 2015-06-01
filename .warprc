@@ -8,3 +8,9 @@ coreplatform:/Users/michael.mccarthy/Development/Gamesys/Platforms/Core/Workstre
 gaming:/Users/michael.mccarthy/Development/Gamesys/Platforms/Core/Workstreams/Gaming
 gsys-tmp:/Users/michael.mccarthy/Development/Gamesys/Temporary
 vb:/Users/michael.mccarthy/Development/Gamesys/Platforms/Core/Workstreams/Platform/coreplatform-vm
+puppet:/Users/michael.mccarthy/Development/Gamesys/Platforms/Other/puppet-scripts
+vboxes:/Users/michael.mccarthy/vagrant-instances
+dosx:/Users/michael.mccarthy/Development/Gamesys/Platforms/Core/Workstreams/Platform/developer-osx
+cpvm:/Users/michael.mccarthy/coreplatform/vm
+gocdconfig:/Users/michael.mccarthy/Development/Gamesys/Platforms/Core/Workstreams/Platform/gocd-configuration
+gocdscripts:/Users/michael.mccarthy/Development/Gamesys/Platforms/Core/Workstreams/Platform/gocd-agent-scripts

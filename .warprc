@@ -5,5 +5,12 @@ member:/Users/michael.mccarthy/Development/Gamesys/Platforms/Core/Workstreams/Me
 payments:/Users/michael.mccarthy/Development/Gamesys/Platforms/Core/Workstreams/Payments
 incentive:/Users/michael.mccarthy/Development/Gamesys/Platforms/Core/Workstreams/Incentive
 coreplatform:/Users/michael.mccarthy/Development/Gamesys/Platforms/Core/Workstreams/Platform/coreplatform
-vb:/Users/michael.mccarthy/vagrant_boxes
 gaming:/Users/michael.mccarthy/Development/Gamesys/Platforms/Core/Workstreams/Gaming
+gsys-tmp:/Users/michael.mccarthy/Development/Gamesys/Temporary
+vb:/Users/michael.mccarthy/Development/Gamesys/Platforms/Core/Workstreams/Platform/coreplatform-vm
+puppet:/Users/michael.mccarthy/Development/Gamesys/Platforms/Other/puppet-scripts
+vboxes:/Users/michael.mccarthy/vagrant-instances
+dosx:/Users/michael.mccarthy/Development/Gamesys/Platforms/Core/Workstreams/Platform/developer-osx
+cpvm:/Users/michael.mccarthy/coreplatform/vm
+gocdconfig:/Users/michael.mccarthy/Development/Gamesys/Platforms/Core/Workstreams/Platform/gocd-configuration
+gocdscripts:/Users/michael.mccarthy/Development/Gamesys/Platforms/Core/Workstreams/Platform/gocd-agent-scripts

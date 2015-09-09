@@ -14,3 +14,7 @@ dosx:/Users/michael.mccarthy/Development/Gamesys/Platforms/Core/Workstreams/Plat
 cpvm:/Users/michael.mccarthy/coreplatform/vm
 gocdconfig:/Users/michael.mccarthy/Development/Gamesys/Platforms/Core/Workstreams/Platform/gocd-configuration
 gocdscripts:/Users/michael.mccarthy/Development/Gamesys/Platforms/Core/Workstreams/Platform/gocd-agent-scripts
+games:/Users/michael.mccarthy/Development/Gamesys/Platforms/Games
+hydra:/Users/michael.mccarthy/Development/Gamesys/hydra
+service-web:/Users/michael.mccarthy/Development/Gamesys/service-web
+client:/Users/michael.mccarthy/Development/Gamesys/Platforms/Client
